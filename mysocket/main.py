@@ -1,4 +1,4 @@
-from socket.all_func import create_standard_request, create_file_request, send_and_receive
+from mysocket.all_func import create_standard_request, create_file_request, send_and_receive
 
 target_host = "hw1.alexbers.com"
 user = {"user": "9bd3219396195529fcf1b0fcbf1a4067"}

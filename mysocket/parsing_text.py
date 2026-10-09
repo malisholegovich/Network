@@ -1,6 +1,5 @@
 import re
 
-
 def parse_html_tables(html_text):
     headers_pattern = r"Запрос должен иметь следующие заголовки:.*?(<table.*?>.*?</table>)"
     cookies_pattern = r"В запросе должны быть выставлены cookie:.*?(<table.*?>.*?</table>)"
